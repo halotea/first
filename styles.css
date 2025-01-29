@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('https://media.giphy.com/media/xTkcEQACH24SMPxIQg/giphy.gif') center center / cover no-repeat;
+    background: linear-gradient(135deg, #f3f3f3, #e1e1e1); /* Subtle gradient background */
     font-family: 'Special Elite', monospace;
 }
 
