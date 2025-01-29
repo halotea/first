@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('background.gif') center center / cover no-repeat;
+    background: url('https://media.giphy.com/media/xTkcEQACH24SMPxIQg/giphy.gif') center center / cover no-repeat;
     font-family: 'Special Elite', monospace;
 }
 
