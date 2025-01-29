@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.gif') center center / cover no-repeat;
+    font-family: 'Special Elite', monospace;
+}
+
+.centered-text {
+    font-size: 2rem;
+    color: #333;
+}
