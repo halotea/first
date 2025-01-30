@@ -10,25 +10,28 @@ body {
     text-align: center;
     color: white;
     overflow: hidden;
+    position: relative;
 }
 
 /* Moving Background */
 body::before {
     content: "";
     position: absolute;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
-    background-size: 400% 400%;
-    animation: gradientAnimation 15s infinite alternate;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+    background-size: 300% 300%;
+    animation: gradientAnimation 8s ease infinite;
     z-index: -1;
 }
 
 /* Gradient Animation */
 @keyframes gradientAnimation {
-    0% { transform: translateX(0) translateY(0); }
-    50% { transform: translateX(-50%) translateY(-50%); }
-    100% { transform: translateX(0) translateY(0); }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Center content */
