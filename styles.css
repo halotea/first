@@ -1,20 +1,51 @@
-/* Resetting body and margin */
-* {
+/* Apply smooth, modern font */
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
+    font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #f3f3f3, #e1e1e1); /* Subtle gradient background */
-    font-family: 'Special Elite', monospace;
+    text-align: center;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
 }
 
-.centered-text {
-    font-size: 2rem;
-    color: #333;
+/* Center content */
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #45a049;
 }
